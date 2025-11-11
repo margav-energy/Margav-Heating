@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    background-color: theme('colors.brand.light');
+    color: theme('colors.brand.dark');
+    font-feature-settings: 'liga' 1, 'kern' 1;
+    font-variation-settings: 'slnt' 0;
+  }
+
+  body {
+    @apply min-h-screen font-sans antialiased;
+    background-color: theme('colors.brand.light');
+    color: theme('colors.brand.dark');
+  }
+
+  ::selection {
+    background: theme('colors.brand.primary / 0.2');
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display;
+    color: theme('colors.brand.dark');
+  }
+
+  a {
+    @apply transition-colors duration-200;
+    color: theme('colors.brand.secondary');
+  }
+
+  a:hover {
+    color: theme('colors.brand.primary');
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold shadow-soft transition duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+    background-image: theme('backgroundImage.brand-gradient');
+    color: theme('colors.brand.white');
+  }
+
+  .btn-primary:focus-visible {
+    outline-color: theme('colors.brand.secondary');
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-brand-secondary px-6 py-3 text-sm font-semibold text-brand-secondary transition duration-200 hover:-translate-y-0.5 hover:bg-brand-secondary/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+    background-color: theme('colors.brand.white');
+    outline-color: theme('colors.brand.secondary');
+  }
+
+  .section {
+    @apply relative py-20;
+  }
+
+  .section-heading {
+    @apply mx-auto mb-10 max-w-2xl text-center;
+  }
+
+  .section-eyebrow {
+    @apply mb-3 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] shadow-sm;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: theme('colors.brand.secondary');
+  }
+}
+
+@layer utilities {
+  .bg-brand-gradient {
+    background-image: theme(backgroundImage.brand-gradient);
+  }
+}
+
