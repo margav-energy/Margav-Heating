@@ -30,7 +30,7 @@ export function CaseStudies() {
             <span className="section-eyebrow">Case Studies</span>
             <h1 className="text-3xl font-bold md:text-4xl">Proof that strategic heating upgrades pay off</h1>
             <p className="mt-4 text-base text-brand-dark/75">
-              Explore a cross-section of recent MarGav Heating projects across residential, hospitality, and multi-unit
+              Explore a cross-section of recent <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span> projects across residential, hospitality, and multi-unit
               developments.
             </p>
           </div>
@@ -60,7 +60,7 @@ export function CaseStudies() {
           <div className="rounded-3xl bg-brand-gradient p-[1px]">
             <div className="flex flex-col gap-4 rounded-3xl bg-brand-dark/95 p-10 text-brand-white md:flex-row md:items-center md:justify-between">
               <div className="max-w-xl space-y-2">
-                <h2 className="text-2xl font-semibold md:text-3xl">Considering a similar project?</h2>
+                <h2 className="text-2xl font-semibold md:text-3xl text-brand-white">Considering a similar project?</h2>
                 <p className="text-sm text-white/80">
                   Request a tailored feasibility study with projected carbon savings, payback periods, and funding
                   recommendations.

@@ -3,10 +3,10 @@ export function AboutSection() {
     <section id="about" className="section bg-white">
       <div className="container grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <div className="space-y-4">
-          <span className="section-eyebrow">About MarGav Heating</span>
+          <span className="section-eyebrow">About <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span></span>
           <h2 className="text-3xl font-bold text-brand-dark md:text-4xl">Built on reliability, workmanship and care</h2>
           <p className="text-base text-brand-dark/80">
-            MarGav Heating is a professional heating and boiler company built on reliability, workmanship and customer
+            <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span> is a professional heating and boiler company built on reliability, workmanship and customer
             care. We pride ourselves on honest advice, tidy work and leaving every heating system running safely and
             efficiently.
           </p>

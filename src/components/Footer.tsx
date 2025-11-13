@@ -29,7 +29,7 @@ export function Footer({ quickLinks, services, socials }: FooterProps) {
             <span className="sr-only">MarGav Heating home</span>
           </Link>
           <p className="max-w-sm text-sm leading-relaxed text-white/70">
-            MarGav Heating delivers professional boiler and heating services with honest advice, tidy workmanship and
+            <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span> delivers professional boiler and heating services with honest advice, tidy workmanship and
             ongoing support.
           </p>
           <ul className="space-y-3 text-sm text-white/80">
@@ -125,7 +125,7 @@ export function Footer({ quickLinks, services, socials }: FooterProps) {
       </div>
       <div className="border-t border-white/10 bg-brand-dark/80">
         <div className="container flex flex-col gap-4 py-6 text-xs text-white/60 md:flex-row md:items-center md:justify-between">
-          <p>© {new Date().getFullYear()} MarGav Heating. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span>. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-4">
             <Link to="/privacy" className="hover:text-white">
               Privacy Policy

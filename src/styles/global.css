@@ -48,6 +48,10 @@
     color: theme('colors.brand.white');
   }
 
+  .btn-primary:hover {
+    color: theme('colors.brand.white') !important;
+  }
+
   .btn-primary:focus-visible {
     outline-color: theme('colors.brand.secondary');
   }
@@ -76,6 +80,13 @@
 @layer utilities {
   .bg-brand-gradient {
     background-image: theme(backgroundImage.brand-gradient);
+  }
+
+  .text-brand-gradient {
+    background-image: theme('backgroundImage.brand-gradient');
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
 }
 

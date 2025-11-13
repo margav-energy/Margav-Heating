@@ -23,7 +23,17 @@ export function Schedule() {
               {BENEFITS.map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="mt-1 text-brand-primary">✔</span>
-                  <span>{item}</span>
+                  <span>
+                    {item.includes('MarGav Heating') ? (
+                      <>
+                        {item.split('MarGav Heating')[0]}
+                        <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span>
+                        {item.split('MarGav Heating')[1]}
+                      </>
+                    ) : (
+                      item
+                    )}
+                  </span>
                 </li>
               ))}
             </ul>

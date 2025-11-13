@@ -45,7 +45,7 @@ export function Contact() {
         <div className="container space-y-12">
           <div className="section-heading">
             <span className="section-eyebrow">Contact Us</span>
-            <h1 className="text-3xl font-bold md:text-4xl">Speak with the MarGav Heating team</h1>
+            <h1 className="text-3xl font-bold md:text-4xl">Speak with the <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span> team</h1>
             <p className="mt-4 text-base text-brand-dark/75">
               Whether you&rsquo;re exploring a retrofit, planning a new build, or need technical support, our specialists
               are ready to help.
@@ -139,7 +139,17 @@ export function Contact() {
                 {SUPPORT_TIERS.map((tier) => (
                   <div key={tier.title} className="rounded-2xl border border-brand-secondary/10 bg-white p-4">
                     <h3 className="text-base font-semibold text-brand-dark">{tier.title}</h3>
-                    <p className="mt-2 text-xs text-brand-dark/70">{tier.description}</p>
+                    <p className="mt-2 text-xs text-brand-dark/70">
+                      {tier.description.includes('MarGav Heating') ? (
+                        <>
+                          {tier.description.split('MarGav Heating')[0]}
+                          <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span>
+                          {tier.description.split('MarGav Heating')[1]}
+                        </>
+                      ) : (
+                        tier.description
+                      )}
+                    </p>
                     <ul className="mt-3 space-y-1 text-xs text-brand-dark/80">
                       {tier.perks.map((perk) => (
                         <li key={perk} className="flex items-start gap-2">

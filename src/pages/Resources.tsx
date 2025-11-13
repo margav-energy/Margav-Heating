@@ -34,7 +34,7 @@ export function Resources() {
         <div className="container space-y-12">
           <div className="section-heading">
             <span className="section-eyebrow">Resource Hub</span>
-            <h1 className="text-3xl font-bold md:text-4xl">Stay ahead with Margav Heating insights</h1>
+            <h1 className="text-3xl font-bold md:text-4xl">Stay ahead with <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span> insights</h1>
             <p className="mt-4 text-base text-brand-dark/75">
               Download guides, watch technical briefings, and unlock planning tools tailored to energy-efficient heating
               retrofit and new-build projects.

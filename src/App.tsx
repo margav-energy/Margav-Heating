@@ -29,10 +29,9 @@ const FOOTER_QUICK_LINKS = [
 ]
 
 const FOOTER_SERVICE_LINKS = [
-  { label: 'Heat Pump Design', to: '/process' },
-  { label: 'Commercial Services', to: '/case-studies' },
-  { label: 'Funding Guidance', to: '/resources' },
-  { label: 'Aftercare & Support', to: '/contact' },
+  { label: 'Air Source Heat Pumps', to: '/services/ashp' },
+  { label: 'Boiler Services', to: '/services/boiler' },
+  { label: 'HHRSH Infrared Heating', to: '/services/hhrsh' },
 ]
 
 const SOCIAL_LINKS = [

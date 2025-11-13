@@ -24,53 +24,33 @@ const HERO_HIGHLIGHTS: Highlight[] = [
 
 const SERVICES: ServiceItem[] = [
   {
-    title: 'Boiler Installation & Replacement',
-    summary: 'Modern, efficient boilers sized and installed to suit your property.',
+    title: 'Air Source Heat Pumps (ASHP)',
+    summary: 'Efficient, low-carbon heating systems that extract heat from the air to warm your home.',
     points: [
-      'Gas Safe design and commissioning',
-      'Removal and disposal of old equipment',
-      'Smart controls and thermostats available',
-      'Manufacturer-backed warranties registered',
+      'MCS-accredited installation and design',
+      'Government grants and funding support available',
+      'Lower running costs compared to traditional heating',
+      'Smart controls and monitoring included',
     ],
   },
   {
-    title: 'Boiler Repairs & Diagnostics',
-    summary: 'Accurate fault finding and fast repairs to get your heating back on.',
+    title: 'Boiler Installation & Services',
+    summary: 'Professional boiler installation, repairs, servicing and maintenance for all makes and models.',
     points: [
-      'Transparent call-out and labour rates',
-      'Genuine parts sourced quickly',
-      'Emergency response available',
-      'Full safety checks after repair',
+      'Gas Safe registered engineers',
+      'New installations and replacements',
+      'Fast repairs and diagnostics',
+      'Annual servicing to maintain efficiency and safety',
     ],
   },
   {
-    title: 'Boiler Servicing & Annual Maintenance',
-    summary: 'Routine servicing keeps your boiler efficient, safe and within warranty.',
+    title: 'HHRSH Infrared Heating',
+    summary: 'High Heat Retention Storage Heaters provide efficient, responsive heating with smart controls.',
     points: [
-      'Full combustion analysis and cleaning',
-      'Service reminders so you never miss a visit',
-      'Documentation for warranty and insurance',
-      'Advice on efficiency improvements',
-    ],
-  },
-  {
-    title: 'Radiator & Central Heating Upgrades',
-    summary: 'Improve comfort and efficiency with balanced radiators and updated controls.',
-    points: [
-      'System flushing and inhibitor dosing',
-      'New radiators and towel warmers fitted',
-      'Smart zoning and thermostatic valves',
-      'Heating performance optimisation',
-    ],
-  },
-  {
-    title: 'Landlord Gas Safety Certificates (CP12)',
-    summary: 'Fast, reliable CP12 inspections for landlords and managing agents.',
-    points: [
-      'Annual safety checks scheduled for you',
-      'Digital certificates issued promptly',
-      'Remedial works quoted clearly',
-      'Key collection and tenant liaison available',
+      'Modern infrared heating technology',
+      'Energy-efficient operation',
+      'Zone control and smart thermostats',
+      'Suitable for homes and commercial properties',
     ],
   },
 ]

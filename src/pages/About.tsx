@@ -172,10 +172,10 @@ export function About() {
       <section className="section">
         <div className="container grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div className="space-y-5">
-            <span className="section-eyebrow">About MarGav Heating</span>
+            <span className="section-eyebrow">About <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span></span>
             <h1 className="text-3xl font-bold md:text-4xl">Trusted heating engineers with a local focus</h1>
             <p className="text-base text-brand-dark/80">
-              MarGav Heating is a professional heating and boiler company built on reliability, workmanship and customer care. Every job is delivered by qualified engineers who take pride in tidy work and clear communication.
+              <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span> is a professional heating and boiler company built on reliability, workmanship and customer care. Every job is delivered by qualified engineers who take pride in tidy work and clear communication.
             </p>
             <p className="text-base text-brand-dark/75">
               We help homeowners, landlords and businesses keep their heating systems safe, efficient and compliant. From first visit to follow-up, you get honest advice, detailed documentation and support that continues long after the job is finished.
@@ -213,7 +213,7 @@ export function About() {
           <div className="space-y-4">
             <span className="section-eyebrow bg-white/10 text-white">Our Team</span>
             <h2 className="text-3xl font-bold md:text-4xl text-white">
-              The team keeping MarGav Heating running smoothly
+              The team keeping <span className="text-brand-gradient">MarGav</span> <span className="text-brand-blue">Heating</span> running smoothly
             </h2>
             <p className="text-base text-white/80">
               Our founding team has decades of experience across heating installation, customer support and technical project delivery.
@@ -250,8 +250,8 @@ export function About() {
             <div>
               <span className="section-eyebrow">Why choose us</span>
               <h2 className="text-3xl font-bold text-brand-dark md:text-4xl">
-                Why choose <span className="text-brand-primary">MarGav</span>{' '}
-                <span className="text-brand-secondary">Heating</span>?
+                Why choose <span className="text-brand-gradient">MarGav</span>{' '}
+                <span className="text-brand-blue">Heating</span>?
               </h2>
             </div>
             <p className="max-w-xl text-sm text-brand-dark/70">
